@@ -7,3 +7,21 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+.site-title {
+  font-family: 'Courier New', monospace;
+  color: #00ffff;
+  text-shadow: 0 0 5px #00ffff;
+}
+
+.site-description, .site-subtitle {
+  font-size: 1.2rem;
+  color: #ccc;
+  text-align: center;
+  animation: fadeIn 2s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
