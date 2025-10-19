@@ -23,7 +23,7 @@ author_profile: true
   </div>
 </div>
 
-<div id="microchat-modal" class="modal">
+<div id="flappybird-modal" class="modal">
   <div class="modal-content">
     <span class="close" onclick="closeModal('microchat-modal')">&times;</span>
     <h2>Flappy Bird</h2>
@@ -32,7 +32,7 @@ author_profile: true
   </div>
 </div>
 
-<div id="microchat-modal" class="modal">
+<div id="outdoorkit-modal" class="modal">
   <div class="modal-content">
     <span class="close" onclick="closeModal('microchat-modal')">&times;</span>
     <h2>Outdoor Kit</h2>
