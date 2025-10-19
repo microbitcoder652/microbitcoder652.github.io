@@ -1,5 +1,7 @@
 ---
 layout: home
+title: "Welcome to Arya's Coding World"
+permalink: /
 author_profile: true
 ---
 
