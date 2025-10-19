@@ -1,9 +1,10 @@
 ---
-title: "Micro Chat"
-excerpt: "A micro:bit-powered messaging system"
-layout: single
-collection: projects
+title: "Projects"
+layout: archive
+permalink: /projects/
+author_profile: true
 ---
+
 
 ## Featured Projects
 
