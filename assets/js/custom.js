@@ -1,0 +1,32 @@
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.8);
+}
+.modal-content {
+  background-color: #111;
+  margin: 10% auto;
+  padding: 20px;
+  border: 2px solid #00ffe7;
+  width: 80%;
+  color: #e0f7fa;
+  box-shadow: 0 0 20px #00ffe7;
+}
+.close {
+  color: #00ffe7;
+  float: right;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+function openModal(id) {
+  document.getElementById(id).style.display = "block";
+}
+function closeModal(id) {
+  document.getElementById(id).style.display = "none";
+}
