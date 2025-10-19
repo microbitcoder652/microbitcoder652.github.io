@@ -56,4 +56,13 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:arya.sharma2421@gmail.com"
+    
+    footer:
+  links:
+    - label: "Built with micro:bit magic"
+      icon: "fas fa-microchip"
+      url: "https://github.com/microbitcoder652"
+
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:arya.sharma2421@gmail.com"
 
