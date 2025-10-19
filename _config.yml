@@ -1,10 +1,3 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
-
 # Theme Settings
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "neon"
@@ -17,7 +10,7 @@ rtl: false
 title: "Arya's Coding Lab"
 title_separator: "-"
 name: "Arya"
-description: "An amazing website."
+description: "A playground for micro:bit experiments, glowing badges, and privacy-first design."
 url: "https://microbitcoder652.github.io"
 repository: "microbitcoder652/microbitcoder652.github.io"
 breadcrumbs: false
