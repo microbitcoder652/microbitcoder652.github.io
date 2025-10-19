@@ -47,7 +47,6 @@ social:
 analytics:
   provider: false
 
-# Site Author
 author:
   name: "Arya"
   bio: "I am an **amazing** person."
@@ -57,12 +56,11 @@ author:
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:arya.sharma2421@gmail.com"
     
-    footer:
+footer:
   links:
     - label: "Built with micro:bit magic"
       icon: "fas fa-microchip"
       url: "https://github.com/microbitcoder652"
-
-      icon: "fas fa-fw fa-envelope-square"
+    - icon: "fas fa-fw fa-envelope-square"
       url: "mailto:arya.sharma2421@gmail.com"
 
