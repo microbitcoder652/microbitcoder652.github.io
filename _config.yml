@@ -8,18 +8,20 @@
 # Theme Settings
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "neon"
+plugins:
+  - jekyll-include-cache
 
 # Site Settings
 locale: "en-CA"
 rtl: false
-title: "Site Title"
+title: "Arya's Coding Lab"
 title_separator: "-"
 subtitle:
 name: "Arya"
 description: "An amazing website."
 url:
 baseurl:
-repository: "arya/repo-1"  # ← Replace with your actual repo
+repository: "microbitcoder652/microbitcoder652.github.io"
 teaser:
 logo:
 masthead_title:
@@ -50,22 +52,14 @@ search_provider: lunr
 lunr:
   search_within_pages: false
 
-# Social Sharing
-twitter:
-  username:
-facebook:
-  username:
-  app_id:
-  publisher:
-og_image:
-
-# Social Profiles
 social:
   type: Person
   name: Arya
   links:
-    - "https://github.com/arya/repo-2"  # ← Replace with your second repo
-    - "https://github.com/arya/repo-3"  # ← Replace with your third repo
+    - "https://github.com/microbitcoder652/microbit-v2-micro-chat"
+    - "https://github.com/microbitcoder652/microbit-flappy-bird"
+    - "https://github.com/microbitcoder652/microbit-v2-outdoor-kit"
+
 
 # Analytics
 analytics:
@@ -74,12 +68,11 @@ analytics:
 # Site Author
 author:
   name: "Arya"
-  avatar:
   bio: "I am an **amazing** person."
-  location: "Calgary, AB"
-  email:
+  location: "Toronto, ON"
+  email: "arya.sharma2421@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url:
+      url: "mailto:arya.sharma2421@gmail.com"
 
