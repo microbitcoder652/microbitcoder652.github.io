@@ -16,34 +16,18 @@ locale: "en-CA"
 rtl: false
 title: "Arya's Coding Lab"
 title_separator: "-"
-subtitle:
 name: "Arya"
 description: "An amazing website."
-url:
-baseurl:
+url: "https://microbitcoder652.github.io"
 repository: "microbitcoder652/microbitcoder652.github.io"
-teaser:
-logo:
-masthead_title:
 breadcrumbs: false
 words_per_minute: 200
 enable_copy_code_button: true
-copyright:
-copyright_url:
-
-# Comments
-comments:
-  provider: false
 
 # reCaptcha
 reCaptcha:
-  siteKey:
-  secret:
-
-# Atom Feed
-atom_feed:
-  path:
-  hide: false
+  siteKey: "6Lew8u8rAAAAAM1rUd0ivnrlAm-Hx7ZreZMPYAaE"
+  secret: "6Lew8u8rAAAAAK3gYTu6e9sUydOw7wVu0RVUaHMn"
 
 # Search
 search: true
@@ -70,7 +54,6 @@ author:
   name: "Arya"
   bio: "I am an **amazing** person."
   location: "Toronto, ON"
-  email: "arya.sharma2421@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
