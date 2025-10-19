@@ -9,7 +9,7 @@ search: false
 @import "minimal-mistakes"; // main partials
 
 .site-title {
-  font-family: 'Courier New', monospace;
+  font-family: Arial, sans-serif;
   color: #00ffff;
   text-shadow: 0 0 5px #00ffff;
 }
@@ -27,7 +27,7 @@ search: false
 }
 
 .terminal-intro {
-  font-family: 'Courier New', monospace;
+  font-family: Arial, sans-serif;
   color: #0f0;
   background: #000;
   padding: 1rem;
@@ -48,4 +48,11 @@ search: false
 .project-cards .card:hover {
   transform: scale(1.05);
   box-shadow: 0 0 20px #0ff;
+}
+
+.footer-glow {
+  text-align: center;
+  color: #0f0;
+  font-family: Arial, sans-serif;
+  text-shadow: 0 0 5px #0f0;
 }
