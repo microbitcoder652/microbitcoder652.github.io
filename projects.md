@@ -1,6 +1,6 @@
 ---
 title: "Projects"
-layout: archive
+layout: default
 permalink: /projects/
 author_profile: true
 ---
@@ -25,19 +25,19 @@ author_profile: true
 
 <div id="flappybird-modal" class="modal">
   <div class="modal-content">
-    <span class="close" onclick="closeModal('microchat-modal')">&times;</span>
+    <span class="close" onclick="closeModal('flappybird-modal')">&times;</span>
     <h2>Flappy Bird</h2>
     <p>A micro:bit-powered recreation of Flappy Bird.</p>
-    <a href="https://github.com/microbitcoder652/microbit-v2-micro-chat">View on GitHub</a>
+    <a href="https://github.com/microbitcoder652/microbit-flappy-bird">View on GitHub</a>
   </div>
 </div>
 
 <div id="outdoorkit-modal" class="modal">
   <div class="modal-content">
-    <span class="close" onclick="closeModal('microchat-modal')">&times;</span>
+    <span class="close" onclick="closeModal('outdoorkit-modal')">&times;</span>
     <h2>Outdoor Kit</h2>
     <p>A all-in-one kit for outdoors. This is only compatible with v2.</p>
-    <a href="https://github.com/microbitcoder652/microbit-v2-micro-chat">View on GitHub</a>
+    <a href="https://github.com/microbitcoder652/microbit-v2-outdoor-kitdone">View on GitHub</a>
   </div>
 </div>
 
