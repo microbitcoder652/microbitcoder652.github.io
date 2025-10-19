@@ -16,7 +16,7 @@
       {% endfor %}
     {% endif %}
 
-    {% assign site_time = site.time | date: '%Y' %}
+{% assign site_time = site.time | date: '%Y' %}
 <div class="page__footer-copyright">
   &copy;
   {% if site.footer.since and site_time != site.footer.since %}
@@ -32,3 +32,4 @@
 </div>
 
 <p class="footer-glow">Built with micro:bit magic and ethical code.</p>
+{% endif %}
