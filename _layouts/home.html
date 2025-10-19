@@ -19,6 +19,12 @@ layout: archive
 
 {% include paginator.html %}
 
+{% for link in site.social.links %}
+  <a href="{{ link.url }}">
+    <i class="{{ link.icon }}"></i> {{ link.label }}
+  </a>
+{% endfor %}
+
 <h1 class="site-title">{{ site.title }}</h1>
 {% if site.description %}
   <p class="site-description">{{ site.description }}</p>
