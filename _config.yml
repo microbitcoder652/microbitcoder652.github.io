@@ -40,10 +40,15 @@ social:
   type: Person
   name: Arya
   links:
-    - "https://github.com/microbitcoder652/microbit-v2-micro-chat"
-    - "https://github.com/microbitcoder652/microbit-flappy-bird"
-    - "https://github.com/microbitcoder652/microbit-v2-outdoor-kit"
-
+    - label: "Micro Chat"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/microbitcoder652/microbit-v2-micro-chat"
+    - label: "Flappy Bird"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/microbitcoder652/microbit-flappy-bird"
+    - label: "Outdoor Kit"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/microbitcoder652/microbit-v2-outdoor-kit"
 
 # Analytics
 analytics:
