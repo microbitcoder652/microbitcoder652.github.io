@@ -8,35 +8,23 @@ author_profile: true
 
 ## Featured Projects
 
-<div class="project-cards">
-  <a href="#" class="card" onclick="openModal('microchat-modal')">Micro Chat</a>
-  <a href="#" class="card" onclick="openModal('flappybird-modal')">Flappy Bird</a>
-  <a href="#" class="card" onclick="openModal('outdoorkit-modal')">Outdoor Kit</a>
-</div>
+<div class="github-gallery">
+  <div class="github-card">
+    <img src="https://opengraph.githubassets.com/1/microbitcoder652/microbit-v2-micro-chat" alt="Micro Chat GitHub Preview">
+    <h3>Micro Chat</h3>
+    <a href="https://github.com/microbitcoder652/microbit-v2-micro-chat" target="_blank">View on GitHub</a>
+  </div>
 
-<div id="microchat-modal" class="modal">
-  <div class="modal-content">
-    <span class="close" onclick="closeModal('microchat-modal')">&times;</span>
-    <h2>Micro Chat</h2>
-    <p>A micro:bit-powered messaging system using the built-in radio. This is only compatible with v2.</p>
-    <a href="https://github.com/microbitcoder652/microbit-v2-micro-chat">View on GitHub</a>
+  <div class="github-card">
+    <img src="https://opengraph.githubassets.com/1/microbitcoder652/microbit-flappy-bird" alt="Flappy Bird GitHub Preview">
+    <h3>Flappy Bird</h3>
+    <a href="https://github.com/microbitcoder652/microbit-flappy-bird" target="_blank">View on GitHub</a>
+  </div>
+
+  <div class="github-card">
+    <img src="https://opengraph.githubassets.com/1/microbitcoder652/microbit-v2-outdoor-kitdone" alt="Outdoor Kit GitHub Preview">
+    <h3>Outdoor Kit</h3>
+    <a href="https://github.com/microbitcoder652/microbit-v2-outdoor-kitdone" target="_blank">View on GitHub</a>
   </div>
 </div>
 
-<div id="flappybird-modal" class="modal">
-  <div class="modal-content">
-    <span class="close" onclick="closeModal('flappybird-modal')">&times;</span>
-    <h2>Flappy Bird</h2>
-    <p>A micro:bit-powered recreation of Flappy Bird.</p>
-    <a href="https://github.com/microbitcoder652/microbit-flappy-bird">View on GitHub</a>
-  </div>
-</div>
-
-<div id="outdoorkit-modal" class="modal">
-  <div class="modal-content">
-    <span class="close" onclick="closeModal('outdoorkit-modal')">&times;</span>
-    <h2>Outdoor Kit</h2>
-    <p>A all-in-one kit for outdoors. This is only compatible with v2.</p>
-    <a href="https://github.com/microbitcoder652/microbit-v2-outdoor-kitdone">View on GitHub</a>
-  </div>
-</div>
