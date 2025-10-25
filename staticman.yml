@@ -1,0 +1,9 @@
+name: "Arya's Terminal Posts"
+allowedFields: ["name", "message"]
+requiredFields: ["name", "message"]
+branch: "master"
+path: "_data/comments"
+filename: "comment-:date"
+format: "yaml"
+moderation: true
+commitMessage: "New comment from :name"
