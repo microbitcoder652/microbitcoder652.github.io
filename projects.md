@@ -24,7 +24,7 @@ author_profile: true
   <div class="github-card">
     <img src="https://opengraph.githubassets.com/1/microbitcoder652/microbit-v2-outdoor-kit" alt="Outdoor Kit GitHub Preview">
     <h3>Outdoor Kit</h3>
-    <a href="https://github.com/microbitcoder652/microbit-v2-outdoor-kitdone" target="_blank">View on GitHub</a>
+    <a href="https://github.com/microbitcoder652/microbit-v2-outdoor-kit" target="_blank">View on GitHub</a>
   </div>
 </div>
 
