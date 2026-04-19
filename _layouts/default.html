@@ -1,0 +1,31 @@
+---
+layout: nil
+---
+
+<!doctype html>
+<html lang="{{ site.locale | replace: "_", "-" | default: "en" }}" class="no-js">
+  <head>
+    {% include head.html %}
+  </head>
+
+  {% if page.author_profile %}
+    {% include author-profile.html %}
+  {% endif %}
+
+  <body>
+    {% include_cached masthead.html %}
+
+    <div class="initial-content">
+      {{ content }}
+    </div>
+
+    <div id="footer" class="page__footer">
+      <footer>
+        {% include footer.html %}
+      </footer>
+    </div>
+
+    {% include scripts.html %}
+    <script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
+  </body>
+</html>

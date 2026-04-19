@@ -1,0 +1,19 @@
+# Authors
+
+arya_sharma:
+  name             : "Arya Sharma"
+  avatar           : "/assets/images/microbit.jpg"
+  bio              : "I love coding and playing games"
+  location         : "Scarborough, ON"
+  email            : "arya.sharma2421@gmail.com"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-square-envelope"
+      url: "mailto:arya.sharma2421@gmail.com"
+    - label: "This Site"
+      icon: "fas fa-fw fa-link"
+      url: "https://microbitcoder652.github.io"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/microbitcoder652"
+

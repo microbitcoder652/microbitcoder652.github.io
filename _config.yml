@@ -1,0 +1,75 @@
+# Theme Settings
+theme: null
+minimal_mistakes_skin: "dark-skin"
+
+# Markdown Settings
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Plugins
+plugins:
+  - jekyll-include-cache
+
+# Site Settings
+locale: "en-CA"
+title: "Arya's Coding World"
+description: "Welcome to my personal website, built with Jekyll and the Minimal Mistakes theme. This site is a hub for my micro:bit projects, coding experiments, and creative tech adventures."
+title_separator: "-"
+url: "https://microbitcoder652.github.io"
+repository: "microbitcoder652/microbitcoder652.github.io"
+words_per_minute: 200
+
+masthead:
+  enable: true
+
+navigation:
+  - title: "Home"
+    url: /
+  - title: "Projects"
+    url: /projects/
+  - title: "Github"
+    url: https://gthub.com/microbitcoder652/
+  - title: "About Me"
+    url: /about/
+
+comments:
+  provider: "giscus"
+
+include: [".*"]   # include dotfiles
+exclude: []       # don’t exclude anything
+    
+# SEO Related
+google_site_verification : "MAWwgasCw3Iml0Db8EuyKc6cow_bU-wwvLxVtReG9fU"
+bing_site_verification   : "1E8140AF75C7076B73F616579B8B2D76"
+
+# Site Author
+author:
+  name             : "Arya Sharma"
+  avatar           : "/assets/images/microbit.jpg"
+  bio              : "I love coding and playing games"
+  location         : "Scarborough, ON"
+  email            : "arya.sharma2421@gmail.com"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-square-envelope"
+      url: "mailto:arya.sharma2421@gmail.com"
+    - label: "This Site"
+      icon: "fas fa-fw fa-link"
+      url: "https://microbitcoder652.github.io"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/microbitcoder652"
+
+footer:
+  links:
+    - label: "micro:bit"
+      icon: "/assets/images/microbit.jpg"
+      url: "https://microbit.org"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:arya.sharma2421@gmail.com"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/microbitcoder652"
+

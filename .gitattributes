@@ -1,2 +1,9 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Vendor assets (don’t count toward language stats)
+assets/js/main.min.js           linguist-vendored
+assets/js/plugins/*             linguist-vendored
+assets/js/vendor/*              linguist-vendored
+_sass/main-sass/vendor/* linguist-vendored
+
+# Ruby build metadata (optional)
+Gemfile                         linguist-vendored
+Gemfile.lock                    linguist-vendored

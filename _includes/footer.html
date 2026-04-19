@@ -1,0 +1,25 @@
+{% if site.footer.links %}
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    {% if site.data.ui-text[site.locale].follow_label %}
+      <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
+    {% endif %}
+
+    {% for link in site.footer.links %}
+      {% if link.label and link.url %}
+        <li>
+          <a href="{{ link.url }}" rel="nofollow noopener noreferrer">
+            {% if link.icon contains '/' %}
+              <img src="{{ link.icon }}" alt="{{ link.label }} icon" class="nav-icon">
+            {% else %}
+              <i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i>
+            {% endif %}
+            {{ link.label | escape_once | strip }}
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
+

@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+{{ content }}
+
+    {% if page.author_profile %}
+      {% include author-profile.html %}
+    {% endif %}
+
+<h3 class="archive__subtitle">Recent Posts</h3>
+
+<!-- Giscus comments right after posts -->
+<div class="page__comments">
+  <h3 class="page__comments-title">Join the Discussion</h3>
+  {% include comments.html %}
+</div>
