@@ -22,7 +22,7 @@ words_per_minute: 200
 masthead:
   enable: true
 
-navigation:
+main:
   - title: "Home"
     url: /
   - title: "Projects"
