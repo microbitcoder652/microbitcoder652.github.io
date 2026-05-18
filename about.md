@@ -5,8 +5,6 @@ title: "About Me"
 author_profile: true
 ---
 
-&nbsp;
-
 ## Credits
 
 ### Icons:
@@ -18,7 +16,3 @@ author_profile: true
 - [Jekyll](https://jekyllrb.com/)
 - [jQuery](https://jquery.com/)
 - Greedy Navigation - [lukejacksonn](https://codepen.io/lukejacksonn/pen/PwmwWV)
-
----
-
-
