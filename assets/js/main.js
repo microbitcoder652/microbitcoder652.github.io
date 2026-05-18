@@ -1,4 +1,3 @@
-// --- Modal controls ---
 function openModal(e){document.getElementById(e).style.display="block"}
 function closeModal(e){document.getElementById(e).style.display="none"}
 
@@ -6,7 +5,6 @@ document.addEventListener("DOMContentLoaded", () => {
   if (window.terminalSimLoaded) return;
   window.terminalSimLoaded = true;
 
-  // --- Lightbox replacement ---
   document.querySelectorAll(
     "a[href$='.jpg'],a[href$='.jpeg'],a[href$='.png'],a[href$='.gif'],a[href$='.webp']"
   ).forEach(link => {
@@ -30,7 +28,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  // --- Terminal typing effect ---
   const terminal = document.getElementById("terminal-output");
   const startBtn = document.getElementById("start-terminal");
   const audio = document.getElementById("boot-sound");
@@ -132,5 +129,41 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+  const nav = document.querySelector(".greedy-nav");
+  if (!nav) return;
 
+  const btn = nav.querySelector(".greedy-nav__toggle");
+  const vlinks = nav.querySelector(".visible-links");
+  const hlinks = nav.querySelector(".hidden-links");
 
+  const update = () => {
+    const available = nav.clientWidth - (btn ? btn.clientWidth : 0);
+    let required = vlinks.scrollWidth;
+
+    if (required > available) {
+      while (vlinks.scrollWidth > available && vlinks.children.length > 0) {
+        hlinks.prepend(vlinks.lastElementChild);
+      }
+    } else {
+      while (
+        hlinks.children.length > 0 &&
+        vlinks.scrollWidth + hlinks.firstElementChild.scrollWidth < available
+      ) {
+        vlinks.append(hlinks.firstElementChild);
+      }
+    }
+
+    if (btn) btn.classList.toggle("hidden", hlinks.children.length === 0);
+  };
+
+  update();
+  window.addEventListener("resize", update);
+
+  if (btn) {
+    btn.addEventListener("click", () => {
+      hlinks.classList.toggle("hidden");
+      btn.classList.toggle("close");
+    });
+  }
+});
