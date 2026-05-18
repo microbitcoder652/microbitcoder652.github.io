@@ -1,18 +1,10 @@
----
-layout: nil
----
-
 <!doctype html>
-<html lang="{{ site.locale | replace: "_", "-" | default: "en" }}" class="no-js">
+<html lang="{{ site.locale | replace: '_', '-' | default: 'en' }}" class="no-js">
   <head>
     {% include head.html %}
   </head>
 
-  {% if page.author_profile %}
-    {% include author-profile.html %}
-  {% endif %}
-
-  <body>
+  <body class="layout--{{ page.layout | default: layout.layout }}">
     {% include_cached masthead.html %}
 
     <div class="initial-content">
@@ -29,3 +21,4 @@ layout: nil
     <script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
   </body>
 </html>
+
