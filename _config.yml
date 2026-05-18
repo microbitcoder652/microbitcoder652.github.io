@@ -1,20 +1,16 @@
-# Theme Settings
 theme: null
 minimal_mistakes_skin: "dark-skin"
 
-# Markdown Settings
 markdown: kramdown
 kramdown:
   input: GFM
 
-# Plugins
 plugins:
   - jekyll-include-cache
   - jekyll-sitemap
   - jekyll-feed
 
 
-# Site Settings
 locale: "en-CA"
 title: "Arya's Coding World"
 description: "Welcome to my personal website, built with Jekyll and the Minimal Mistakes theme. This site is a hub for my micro:bit projects, coding experiments, and creative tech adventures."
@@ -33,15 +29,15 @@ navigation:
     url: /projects/
   - title: "About Me"
     url: /about/
+  - title: "GitHub"
+    url: https://github.com/microbitcoder652
 
 comments:
   provider: "giscus"
     
-# SEO Related
 google_site_verification : "MAWwgasCw3Iml0Db8EuyKc6cow_bU-wwvLxVtReG9fU"
 bing_site_verification   : "1E8140AF75C7076B73F616579B8B2D76"
 
-# Site Author
 author:
   name             : "Arya Sharma"
   bio              : "I love coding and playing games"
