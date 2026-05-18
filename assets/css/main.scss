@@ -3,8 +3,8 @@
 
 @charset "utf-8";
 
-@import "minimal-mistakes/dark-skin";
-@import "minimal-mistakes"; // main partials
+@import "main-sass/dark-skin";
+@import "main-sass"; // main partials
 
 .site-title {
   font-family: Arial, sans-serif;
