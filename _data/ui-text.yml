@@ -1,7 +1,0 @@
-
-en: &DEFAULT_EN
-  breadcrumb_home_label      : "Home"
-  breadcrumb_separator       : "/"
-  follow_label               : "Links:"
-  website_label              : "Website"
-  email_label                : "Email"
