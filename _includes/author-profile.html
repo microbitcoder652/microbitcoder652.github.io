@@ -23,7 +23,7 @@
   </div>
 
   <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">{{ site.data.ui-text[locale].follow_label | remove: ":" | default: "Follow" }}</button>
+    <button class="btn btn--inverse">{{ site.ui_text[locale].follow_label | remove: ":" | default: "Follow" }}</button>
     <ul class="author__urls social-icons">
       {% if author.location %}
         <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
@@ -35,7 +35,7 @@
       {% if author.uri %}
         <li>
           <a href="{{ author.uri }}" itemprop="url" rel="me">
-            <i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">{{ site.data.ui-text[locale].website_label | default: "Website" }}</span>
+            <i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">{{ site.ui_text[locale].website_label | default: "Website" }}</span>
           </a>
         </li>
       {% endif %}
@@ -44,7 +44,7 @@
         <li>
           <a href="mailto:{{ author.email }}" rel="me" class="u-email">
             <meta itemprop="email" content="{{ author.email }}" />
-            <i class="fas fa-fw fa-square-envelope" aria-hidden="true"></i><span class="label">{{ site.data.ui-text[locale].email_label | default: "Email" }}</span>
+            <i class="fas fa-fw fa-square-envelope" aria-hidden="true"></i><span class="label">{{ site.ui_text[locale].email_label | default: "Email" }}</span>
           </a>
         </li>
       {% endif %}
