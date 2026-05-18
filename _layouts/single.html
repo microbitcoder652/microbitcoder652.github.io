@@ -2,27 +2,28 @@
 layout: default
 ---
 
-<div id="main" role="main">
-  <article class="page" itemscope itemtype="https://schema.org/CreativeWork"{% if page.locale %} lang="{{ page.locale }}"{% endif %}>
+{% include masthead.html %}
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     {% if page.title %}
       <h1 id="page-title" class="page__title" itemprop="headline">
         {{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}
       </h1>
     {% endif %}
 
-    <section class="page__content" itemprop="text">
-      {{ content }}
-    </section>
-
     {% if page.author_profile %}
       {% include author-profile.html %}
     {% endif %}
 
+    <section class="page__content" itemprop="text">
+      {{ content }}
+    </section>
 
-    <!-- Giscus comments -->
-    <div class="page__comments">
-      <h3 class="page__comments-title">Join the Discussion</h3>
-      {% include comments.html %}
-    </div>
+    {% if page.comments %}
+      <div class="page__comments">
+        {% include comments.html %}
+      </div>
+    {% endif %}
   </article>
 </div>
+
