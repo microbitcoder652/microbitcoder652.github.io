@@ -1,19 +1,10 @@
 ---
-# Only the main Sass file needs front matter
 ---
 
 @charset "utf-8";
 
-@import "main-sass/variables";
-@import "main-sass/mixins";
-@import "main-sass/reset";
-@import "main-sass/base";
-@import "main-sass/vendor/magnific-popup/settings";
-@import "main-sass/dark-skin";
-@import "main-sass/masthead";
-@import "main-sass/navigation";
-@import "main-sass/footer";
-@import "main-sass/page";
+@import "minimal-mistakes/dark-skin";
+@import "minimal-mistakes"; // main partials
 
 .site-title {
   font-family: Arial, sans-serif;
