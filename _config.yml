@@ -31,8 +31,6 @@ navigation:
     url: /
   - title: "Projects"
     url: /projects/
-  - title: "Github"
-    url: https://github.com/microbitcoder652/
   - title: "About Me"
     url: /about/
 
