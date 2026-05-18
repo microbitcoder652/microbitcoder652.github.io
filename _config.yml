@@ -10,6 +10,10 @@ kramdown:
 # Plugins
 plugins:
   - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+
 
 # Site Settings
 locale: "en-CA"
@@ -35,9 +39,6 @@ navigation:
 
 comments:
   provider: "giscus"
-
-include: [".*"]   # include dotfiles
-exclude: []       # don’t exclude anything
     
 # SEO Related
 google_site_verification : "MAWwgasCw3Iml0Db8EuyKc6cow_bU-wwvLxVtReG9fU"
