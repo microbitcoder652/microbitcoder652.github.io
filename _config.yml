@@ -46,7 +46,6 @@ bing_site_verification   : "1E8140AF75C7076B73F616579B8B2D76"
 # Site Author
 author:
   name             : "Arya Sharma"
-  avatar           : "/assets/images/microbit.jpg"
   bio              : "I love coding and playing games"
   location         : "Scarborough, ON"
   email            : "arya.sharma2421@gmail.com"
@@ -63,9 +62,6 @@ author:
 
 footer:
   links:
-    - label: "micro:bit"
-      icon: "/assets/images/microbit.jpg"
-      url: "https://microbit.org"
     - label: "Email"
       icon: "fas fa-envelope"
       url: "mailto:arya.sharma2421@gmail.com"
