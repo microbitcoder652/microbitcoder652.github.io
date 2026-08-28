@@ -1,17 +1,21 @@
 ---
-layout: default
+layout: archive
 ---
+{%- assign locale = page.locale | default: layout.locale | default: site.locale %}
 
 {{ content }}
 
-    {% if page.author_profile %}
-      {% include author-profile.html %}
-    {% endif %}
+<h3 class="archive__subtitle">{{ site.data.ui-text[locale].recent_posts | default: "Recent Posts" }}</h3>
 
-<h3 class="archive__subtitle">Comments</h3>
+{% if paginator %}
+  {% assign posts = paginator.posts %}
+{% else %}
+  {% assign posts = site.posts %}
+{% endif %}
 
-<!-- Giscus comments right after posts -->
-<div class="page__comments">
-  <h3 class="page__comments-title">Join the Discussion</h3>
-  {% include comments.html %}
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+<div class="entries-{{ entries_layout }}">
+  {% include documents-collection.html locale=locale entries=posts type=entries_layout %}
 </div>
+
+{% include paginator.html locale=locale %}
