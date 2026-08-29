@@ -1,0 +1,219 @@
+Folder PATH listing
+Volume serial number is 7E9D-D612
+C:.
+¦   .gitattributes
+¦   .gitignore
+¦   about.md
+¦   BingSiteAuth.xml
+¦   Gemfile
+¦   googlee80e14213f41ad81.html
+¦   index.html
+¦   LICENSE
+¦   projects.md
+¦   README.md
+¦   tree.txt
+¦   _config.yml
+¦   
++---assets
+¦   +---css
+¦   ¦       custom.scss
+¦   ¦       main.scss
+¦   ¦       
+¦   +---images
+¦   ¦       microbit-flappy-bird.png
+¦   ¦       microbit-v2-micro-chat.png
+¦   ¦       microbit-v2-outdoor-kit.png
+¦   ¦       microbit.jpg
+¦   ¦       robot.jpg
+¦   ¦       
+¦   +---js
+¦   ¦   ¦   custom.min.js
+¦   ¦   ¦   custom.min.js.map
+¦   ¦   ¦   main.min.js
+¦   ¦   ¦   main.min.js.map
+¦   ¦   ¦   _custom.js
+¦   ¦   ¦   _main.js
+¦   ¦   ¦   
+¦   ¦   +---plugins
+¦   ¦   ¦       jquery.greedy-navigation.js
+¦   ¦   ¦       jquery.magnific-popup.js
+¦   ¦   ¦       smooth-scroll.js
+¦   ¦   ¦       
+¦   ¦   +---vendor
+¦   ¦       +---jquery
+¦   ¦               jquery-3.7.1.js
+¦   ¦               
+¦   +---sounds
+¦           bootup.mp3
+¦           
++---favicon
+¦       favicon-96x96.png
+¦       favicon.ico
+¦       favicon.svg
+¦       site.webmanifest
+¦       web-app-manifest-192x192.png
+¦       web-app-manifest-512x512.png
+¦       
++---_data
+¦       navigation.yml
+¦       ui-text.yml
+¦       
++---_includes
+¦   ¦   after-content.html
+¦   ¦   author-profile.html
+¦   ¦   before-related.html
+¦   ¦   breadcrumbs.html
+¦   ¦   category-list.html
+¦   ¦   comment.html
+¦   ¦   comments.html
+¦   ¦   copyright.html
+¦   ¦   copyright.js
+¦   ¦   documents-collection.html
+¦   ¦   feature_row
+¦   ¦   figure
+¦   ¦   footer.html
+¦   ¦   gallery
+¦   ¦   group-by-array
+¦   ¦   head.html
+¦   ¦   masthead.html
+¦   ¦   nav_list
+¦   ¦   page__date.html
+¦   ¦   page__hero.html
+¦   ¦   page__hero_video.html
+¦   ¦   page__meta.html
+¦   ¦   page__related.html
+¦   ¦   page__taxonomy.html
+¦   ¦   paginator-v1.html
+¦   ¦   paginator-v2.html
+¦   ¦   paginator.html
+¦   ¦   posts-category.html
+¦   ¦   posts-tag.html
+¦   ¦   posts-taxonomy.html
+¦   ¦   post_pagination.html
+¦   ¦   schema.html
+¦   ¦   scripts.html
+¦   ¦   seo.html
+¦   ¦   skip-links.html
+¦   ¦   social-share.html
+¦   ¦   tag-list.html
+¦   ¦   toc
+¦   ¦   toc.html
+¦   ¦   video
+¦   ¦   
+¦   +---comments-providers
+¦   ¦       giscus.html
+¦   ¦       scripts.html
+¦   ¦       
+¦   +---footer
+¦   ¦       custom.html
+¦   ¦       
+¦   +---head
+¦           custom.html
+¦           
++---_layouts
+¦       archive-taxonomy.html
+¦       archive.html
+¦       categories.html
+¦       category.html
+¦       collection.html
+¦       compress.html
+¦       default.html
+¦       home.html
+¦       posts.html
+¦       search.html
+¦       single.html
+¦       splash.html
+¦       tag.html
+¦       tags.html
+¦       
++---_sass
+    ¦   minimal-mistakes.scss
+    ¦   
+    +---main-sass
+        ¦   _animations.scss
+        ¦   _archive.scss
+        ¦   _base.scss
+        ¦   _buttons.scss
+        ¦   _copyright.scss
+        ¦   _footer.scss
+        ¦   _forms.scss
+        ¦   _masthead.scss
+        ¦   _mixins.scss
+        ¦   _navigation.scss
+        ¦   _notices.scss
+        ¦   _page.scss
+        ¦   _print.scss
+        ¦   _reset.scss
+        ¦   _search.scss
+        ¦   _sidebar.scss
+        ¦   _syntax.scss
+        ¦   _tables.scss
+        ¦   _utilities.scss
+        ¦   _variables.scss
+        ¦   
+        +---skins
+        ¦       _catppuccin_mocha.scss
+        ¦       
+        +---vendor
+            +---breakpoint
+            ¦   ¦   _breakpoint.scss
+            ¦   ¦   _context.scss
+            ¦   ¦   _helpers.scss
+            ¦   ¦   _legacy-settings.scss
+            ¦   ¦   _no-query.scss
+            ¦   ¦   _parsers.scss
+            ¦   ¦   _respond-to.scss
+            ¦   ¦   _settings.scss
+            ¦   ¦   
+            ¦   +---parsers
+            ¦       ¦   _double.scss
+            ¦       ¦   _query.scss
+            ¦       ¦   _resolution.scss
+            ¦       ¦   _single.scss
+            ¦       ¦   _triple.scss
+            ¦       ¦   
+            ¦       +---double
+            ¦       ¦       _default-pair.scss
+            ¦       ¦       _default.scss
+            ¦       ¦       _double-string.scss
+            ¦       ¦       
+            ¦       +---resolution
+            ¦       ¦       _resolution.scss
+            ¦       ¦       
+            ¦       +---single
+            ¦       ¦       _default.scss
+            ¦       ¦       
+            ¦       +---triple
+            ¦               _default.scss
+            ¦               
+            +---magnific-popup
+            ¦       _magnific-popup.scss
+            ¦       _settings.scss
+            ¦       
+            +---susy
+                ¦   _su.scss
+                ¦   _susy-prefix.scss
+                ¦   _susy.scss
+                ¦   
+                +---plugins
+                ¦   ¦   _svg-grid.scss
+                ¦   ¦   
+                ¦   +---svg-grid
+                ¦           _prefix.scss
+                ¦           _svg-api.scss
+                ¦           _svg-grid-math.scss
+                ¦           _svg-settings.scss
+                ¦           _svg-unprefix.scss
+                ¦           _svg-utilities.scss
+                ¦           
+                +---susy
+                        _api.scss
+                        _normalize.scss
+                        _parse.scss
+                        _settings.scss
+                        _su-math.scss
+                        _su-validate.scss
+                        _syntax-helpers.scss
+                        _unprefix.scss
+                        _utilities.scss
+                        

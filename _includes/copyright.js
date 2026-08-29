@@ -1,7 +1,6 @@
 /*!
  * Minimal Mistakes Jekyll Theme 4.28.1 by Michael Rose
- * Copyright 2013-2026 Michael Rose - mademistakes.com | @mmistakes
- * Copyright 2024-2026 iBug - ibugone.com | @iBug
+ * Copyright 2022-2026 microbitcoder652 - microbitcoder652.github.io | @microbitcoder652
  * Free for personal and commercial use under the MIT license
- * https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+ * https://github.com/microbitcoder652/microbitcoder652.github.io/blob/master/LICENSE
  */
