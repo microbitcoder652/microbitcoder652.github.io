@@ -27,10 +27,6 @@ comments:
     emit_metadata        : 0
     lang                 : en
     lazy                 : true
-  
-atom_feed:
-  path                   : feed.xml
-  hide                   : false
 
 google_site_verification : "MAWwgasCw3Iml0Db8EuyKc6cow_bU-wwvLxVtReG9fU"
 bing_site_verification   : "1E8140AF75C7076B73F616579B8B2D76"
@@ -94,7 +90,6 @@ sass:
   quiet_deps: true
   silence_deprecations: ['import']
 
-permalink: /:categories/:title/
 timezone: America/Toronto
 
 compress_html:
@@ -103,4 +98,4 @@ compress_html:
     envs: development
 
 after_footer_scripts:
-  - /assets/js/_custom.js
+  - /assets/js/custom.min.js
