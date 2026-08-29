@@ -174,7 +174,9 @@ $text-alignments: left, right, start, end, center, justify;
 
 .full {
   @include breakpoint($large) {
-    margin-inline-end: -1 * span(2.5 of 12) !important;
+    margin-inline-end: 0 !important;
+    width: 100%;
+    max-width: 100%;
   }
 }
 
