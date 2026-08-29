@@ -1,6 +1,4 @@
-theme                  : "null"
-minimal_mistakes_skin    : "catppuccin_mocha"
-
+minimal_mistakes_skin: "catppuccin_mocha"
 locale                   : "en-CA"
 direction                : "ltr"
 title                    : "Arya's Coding World"
