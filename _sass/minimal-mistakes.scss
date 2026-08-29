@@ -5,33 +5,25 @@
 @import "minimal-mistakes/variables";
 
 /* Mixins and functions */
-@import "minimal-mistakes/vendor/breakpoint/breakpoint";
+@import "main-sass/vendor/breakpoint/breakpoint";
 @include breakpoint-set("to ems", true);
-@import "minimal-mistakes/vendor/magnific-popup/magnific-popup"; // Magnific Popup
-@import "minimal-mistakes/vendor/susy/susy";
-@import "minimal-mistakes/mixins";
+@import "main-sass/vendor/magnific-popup/magnific-popup"; // Magnific Popup
+@import "main-sass/mixins";
 
 /* Core CSS */
-@import "minimal-mistakes/reset";
-@import "minimal-mistakes/base";
-@import "minimal-mistakes/forms";
-@import "minimal-mistakes/tables";
-@import "minimal-mistakes/animations";
+@import "main-sass/reset";
+@import "main-sass/base";
+@import "main-sass/forms";
+@import "main-sass/tables";
+@import "main-sass/animations";
 
 /* Components */
-@import "minimal-mistakes/buttons";
-@import "minimal-mistakes/notices";
-@import "minimal-mistakes/masthead";
-@import "minimal-mistakes/navigation";
-@import "minimal-mistakes/footer";
-@import "minimal-mistakes/search";
-@import "minimal-mistakes/syntax";
+@import "main-sass/buttons";
+@import "main-sass/notices";
+@import "main-sass/masthead";
+@import "main-sass/navigation";
+@import "main-sass/footer";
+@import "main-sass/syntax";
 
 /* Utility classes */
-@import "minimal-mistakes/utilities";
-
-/* Layout specific */
-@import "minimal-mistakes/page";
-@import "minimal-mistakes/archive";
-@import "minimal-mistakes/sidebar";
-@import "minimal-mistakes/print";
+@import "main-sass/utilities";
