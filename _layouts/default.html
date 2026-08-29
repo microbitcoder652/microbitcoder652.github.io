@@ -16,14 +16,17 @@
 
     <div class="initial-content">
       {{ content }}
+
+      {% if page.author_profile %}
+        {% include author-profile.html %}
+      {% endif %}
+
+      {% if site.comments.provider and page.comments %}
+        {% include comments.html %}
+      {% endif %}
+
       {% include after-content.html %}
     </div>
-
-    {% if site.search == true %}
-      <div class="search-content">
-        {% include_cached search/search_form.html locale=locale %}
-      </div>
-    {% endif %}
 
     <div id="footer" class="page__footer">
       <footer>
