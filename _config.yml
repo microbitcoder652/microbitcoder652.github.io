@@ -20,7 +20,7 @@ comments:
   
   giscus:
     repo_id              : R_kgDOSG7Vwg
-    category_name        : "Announcements"
+    category_name        : "General"
     category_id          : DIC_kwDOSG7Vws4DEWKO
     discussion_term      : pathname
     reactions_enabled    : 1
