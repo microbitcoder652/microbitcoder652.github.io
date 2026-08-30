@@ -66,13 +66,11 @@ footer:
 include:
   - .htaccess
   - _pages
-  - assets/css/custom.css
 exclude:
   - .asset-cache
   - .bundle
   - .jekyll-assets-cache
   - .sass-cache
-  - assets/js/plugins
   - assets/js/_main.js
   - Capfile
   - config
