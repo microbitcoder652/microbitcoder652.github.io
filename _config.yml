@@ -10,6 +10,11 @@ repository               : "microbitcoder652/microbitcoder652.github.io"
 words_per_minute         : 200
 enable_copy_code_button  : true
 
+plugins:
+  - jekyll-include-cache
+  - jekyll-sitemap
+  - jekyll-feed
+
 comments:
   provider               : "giscus"
   
