@@ -1,7 +1,9 @@
 # Welcome to Arya's Coding World!
 [![LICENSE](https://img.shields.io/badge/License:-MIT-blue.svg)](https://raw.githubusercontent.com/microbitcoder652/microbitcoder652.github.io/master/LICENSE)
 [![Jekyll](https://img.shields.io/badge/Jekyll:-4.4.1-blue)](https://jekyllrb.com/)
-[![jQuery](https://img.shields.io/badge/jQuery:-3.7.1-blue)](https://jquery.com/)
+[![jQuery](https://img.shields.io/badge/jQuery:-3.7.1-yellow)](https://jquery.com/)
+[![Ruby](https://img.shields.io/badge/Ruby:-3.1.0-red)](https://www.ruby-lang.org/)
+
 
 # Arya's Coding Showcase 🚀
 
