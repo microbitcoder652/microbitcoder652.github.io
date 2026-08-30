@@ -1,6 +1,9 @@
 {% assign locale = include.locale | default: site.locale %}
 
 <script src="{{ '/assets/js/vendor/jquery/jquery-3.7.1.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/plugins/smooth-scroll.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/plugins/jquery.greedy-navigation.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/plugins/jquery.magnific-popup.js' | relative_url }}"></script>
 
 {% if site.footer_scripts %}
   {% for script in site.footer_scripts %}
