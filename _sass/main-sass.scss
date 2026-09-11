@@ -11,9 +11,7 @@
 @import "main-sass/mixins";
 
 /* Core CSS */
-@import "main-sass/reset";
 @import "main-sass/base";
-@import "main-sass/forms";
 @import "main-sass/tables";
 @import "main-sass/animations";
 
@@ -23,7 +21,6 @@
 @import "main-sass/masthead";
 @import "main-sass/navigation";
 @import "main-sass/footer";
-@import "main-sass/syntax";
 
 /* Utility classes */
 @import "main-sass/utilities";
