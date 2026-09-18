@@ -1,0 +1,43 @@
+name: Auto EPG
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"   # every 12 hours
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout EPG repo
+        uses: actions/checkout@v3
+        with:
+          repository: iptv-org/epg
+          path: epg
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: |
+          cd epg
+          npm install
+
+      - name: Generate EPG
+        run: |
+          cd epg
+          npm run grab --- --channels=custom.channels.xml
+
+      - name: Copy guide.xml to GitHub.io repo
+        run: |
+          cp epg/guide.xml ./guide.xml
+
+      - name: Commit and push
+        run: |
+          git config user.name "AryaBot"
+          git config user.email "actions@github.com"
+          git add guide.xml
+          git commit -m "Auto EPG update"
+          git push
