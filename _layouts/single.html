@@ -14,17 +14,10 @@ layout: default
       {% endif %}
     </header>
 
-    {% if page.author_profile %}
-      {% include author-profile.html %}
-    {% endif %}
-
     <section class="page__content e-content" itemprop="text">
       {{ content }}
     </section>
 
-    {% if site.comments.provider and page.comments %}
-      {% include comments.html %}
-    {% endif %}
 
   </article>
 
